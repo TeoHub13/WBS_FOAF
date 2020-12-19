@@ -1,0 +1,45 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/TeoHub13/WBS_FOAF/master/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/TeoHub13/WBS_FOAF/master/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/TeoHub13/WBS_FOAF/master/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/TeoHub13/WBS_FOAF/master/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Teodor Dimitrovski" ;
+  foaf:title "Mr" ;
+  foaf:givenname "Teodor" ;
+  foaf:family_name "Dimitrovski" ;
+  foaf:nick "Teo" ;
+  foaf:mbox_sha1sum "08a707f57504c23e6c7f948cc3e2736355bf3b74" ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Ivan" ;
+    foaf:mbox_sha1sum "80c983f60f93765b879707f1a2d2249a08304763" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/IvanGadjo/WBS-Lab5-Foaf_File/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Andrej" ;
+    foaf:mbox_sha1sum "212869dbf544b6e931c3b70d5862a1887f435c8a"
+  ], [
+    a foaf:Person ;
+    foaf:name "David" ;
+    foaf:mbox_sha1sum "12f069550a7e3be3198b8331a8ab7e7fe548edf0" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/becutandavid/FOAF/main/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Anki" ;
+    foaf:mbox_sha1sum "fe8c264a33c423c690cda35dd0b8b43061764346" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/amilovanovikj/FOAF/master/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Jana" ;
+    foaf:mbox_sha1sum "4fdd4dd16f1bea78c19806b66eabec43eb123314" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/jananikolovska/WBS/main/foaf.ttl>
+  ] .
