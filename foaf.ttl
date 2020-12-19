@@ -25,10 +25,6 @@
     rdfs:seeAlso <https://raw.githubusercontent.com/IvanGadjo/WBS-Lab5-Foaf_File/master/foaf.ttl>
   ], [
     a foaf:Person ;
-    foaf:name "Andrej" ;
-    foaf:mbox_sha1sum "212869dbf544b6e931c3b70d5862a1887f435c8a"
-  ], [
-    a foaf:Person ;
     foaf:name "David" ;
     foaf:mbox_sha1sum "12f069550a7e3be3198b8331a8ab7e7fe548edf0" ;
     rdfs:seeAlso <https://raw.githubusercontent.com/becutandavid/FOAF/main/foaf.ttl>
